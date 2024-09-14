@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jyothi Delicious Eats</title>
+    <link rel="stylesheet" href="food2.css">
+</head>
+<body>
+    <center>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="C:\Users\jyoth\Downloads\download.jpeg"alt="Delicious Eats Logo">
+                <h1>Delicious Eats</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Delicious Eats!</h2>
+            <p>Your favorite food delivered hot and fresh.</p>
+            <a href="#order" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="C:\Users\jyoth\Downloads\download (1).jpeg" alt="chicken Biryani">
+                <div class="item-info">
+                    <h3>Tasty chicken Biryani</h3>
+                    <p>chicken pieces,Extra Rice and more.</p>
+                    <span>$15.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\jyoth\Downloads\download (2).jpeg" alt="KFC">
+                <div class="item-info">
+                    <h3>crispy KFC </h3>
+                    <p>Tomato sauce,green sauce.</p>
+                    <span>$10.99</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Place Your Order</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="item">Select Item:</label>
+                <select id="item" name="item" required>
+                    <option value="Chicken Biryani">Chicken Biryani</option>
+                    <option value="KFC">KFC</option>
+                    
+                </select>
+
+                <button type="submit" class="btn">
+                    Submit Order
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2024 Delicious Eats. All rights reserved.</p>
+            <p>Email: info@deliciouseats.com | Phone: (123) 456-7890</p>
+        </div>
+    </footer>
+    </center>
+</body>
+</html>
